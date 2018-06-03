@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/open_button"
+            android:text="打开图片"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/save_button"
+            android:text="保存"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <edu.fzu.iot.ps.util.MyImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"/>
+
+    <GridLayout
+        android:columnCount="5"
+        android:rowCount="4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <EditText
+            android:id="@+id/Edit1"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="1" />
+
+        <EditText
+            android:id="@+id/Edit2"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0"
+            />
+
+        <EditText
+            android:id="@+id/Edit3"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0" />
+
+        <EditText
+            android:id="@+id/Edit4"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0" />
+
+        <EditText
+            android:id="@+id/Edit5"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0" />
+
+        <!--2-->
+
+        <EditText
+            android:id="@+id/Edit6"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0" />
+
+        <EditText
+            android:id="@+id/Edit7"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="1" />
+
+        <EditText
+            android:id="@+id/Edit8"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0" />
+
+        <EditText
+            android:id="@+id/Edit9"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0" />
+
+        <EditText
+            android:id="@+id/Edit10"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0" />
+
+        <!--3-->
+
+
+        <EditText
+            android:id="@+id/Edit11"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0" />
+
+        <EditText
+            android:id="@+id/Edit12"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0" />
+
+        <EditText
+            android:id="@+id/Edit13"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="1" />
+
+        <EditText
+            android:id="@+id/Edit14"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0" />
+
+        <EditText
+            android:id="@+id/Edit15"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0" />
+
+
+        <!--4-->
+
+
+        <EditText
+            android:id="@+id/Edit16"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0" />
+
+        <EditText
+            android:id="@+id/Edit17"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0" />
+
+        <EditText
+            android:id="@+id/Edit18"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0" />
+
+        <EditText
+            android:id="@+id/Edit19"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="1" />
+
+        <EditText
+            android:id="@+id/Edit20"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="0" />
+    </GridLayout>
+
+    <GridLayout
+        android:columnCount="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/filter_button"
+            android:text="滤镜处理"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/blur_button"
+            android:text="高斯模糊"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/sharpen_button"
+            android:text="锐化"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/diffuse_button"
+            android:text="扩散"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/mosaic_button"
+            android:text="马赛克"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/warp_box"
+            android:text="扭曲"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </GridLayout>
+
+
+</LinearLayout>
